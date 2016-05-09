@@ -9,11 +9,10 @@ import (
 	"time"
 
 	"github.com/pschlump/MiscLib"
+	"github.com/pschlump/demo-redis-pubsub/qdemolib"
 	"github.com/pschlump/godebug"
 	"github.com/pschlump/radix.v2/pubsub"
 	"github.com/pschlump/radix.v2/redis" // Modified pool to have NewAuth for authorized connections
-
-	"../qdemolib"
 )
 
 var Debug = flag.Bool("debug", false, "Debug flag")                      // 2

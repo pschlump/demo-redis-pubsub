@@ -3,6 +3,9 @@
 *.a
 *.so
 
+publish/publish
+listen/listen
+
 # Folders
 _obj
 _test
